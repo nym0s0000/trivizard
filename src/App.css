@@ -1,0 +1,47 @@
+body {
+  font-family: 'Harry Potter', sans-serif;
+  background: url('https://i.imgur.com/JdCLfJu.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lobby {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.game-screen {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #333;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.snitch {
+  margin: 20px auto;
+}
