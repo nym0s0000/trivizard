@@ -45,7 +45,7 @@ function AuthPage({ onLogin }) {
     >
       <div className="hogwarts-banner">
         <img 
-          src="c:\Users\DELL\Downloads\explore-the-magic-of-harry-potter-in-4k-65ia7qsffn6yt3te.png" 
+          src="" 
           alt="Hogwarts Crest" 
           className="crest"
         />

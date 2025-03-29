@@ -12,15 +12,7 @@ function App() {
           <h1>🏟️ Trivizard Tournament</h1>
           <button 
             onClick={() => setInGame(true)}
-            style={{ 
-              padding: "10px 20px", 
-              fontSize: "18px", 
-              background: "#740001", 
-              color: "white",
-              border: "none",
-              borderRadius: "5px",
-              cursor: "pointer"
-            }}
+            className="start-button"
           >
             Start Quiz!
           </button>

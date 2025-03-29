@@ -1,0 +1,155 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('/public/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffc500;
+    font-family: 'Harry Potter', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hogwarts-banner {
+    text-align: center;
+    margin-bottom: 2rem;
+    z-index: 2;
+  }
+  
+  .crest {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(255, 197, 0, 0.7));
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    text-shadow: 0 0 10px rgba(255, 197, 0, 0.5);
+    letter-spacing: 2px;
+  }
+  
+  .auth-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 350px;
+    max-width: 90%;
+    box-shadow: 0 0 25px rgba(255, 197, 0, 0.3);
+    border: 1px solid #ffc500;
+    z-index: 2;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #444;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 0.8rem;
+    background: none;
+    border: none;
+    color: #aaa;
+    font-family: 'Harry Potter';
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .tab.active {
+    color: #ffc500;
+    border-bottom: 2px solid #ffc500;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffc500;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(55, 46, 41, 0.7);
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Harry Potter';
+    font-size: 1rem;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #ffc500;
+    box-shadow: 0 0 10px rgba(255, 197, 0, 0.3);
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(to right, #740001, #ffc500);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Harry Potter';
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .auth-button:hover {
+    background: linear-gradient(to right, #ffc500, #740001);
+  }
+  
+  .switch-mode {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #aaa;
+  }
+  
+  .switch-mode span {
+    color: #ffc500;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .floating-candles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .candle {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background: linear-gradient(to bottom, #ffc500, #ff6600);
+    border-radius: 50% 50% 0 0;
+    box-shadow: 0 0 20px #ff6600;
+  }
+  
+  /* Position candles randomly */
+  .candle:nth-child(1) { left: 10%; top: 15%; }
+  .candle:nth-child(2) { left: 25%; top: 30%; }
+  .candle:nth-child(3) { left: 40%; top: 20%; }
+  .candle:nth-child(4) { left: 55%; top: 35%; }
+  .candle:nth-child(5) { left: 70%; top: 25%; }
+  .candle:nth-child(6) { left: 85%; top: 15%; }
+  .candle:nth-child(7) { left: 15%; top: 60%; }
+  .candle:nth-child(8) { left: 30%; top: 70%; }
+  .candle:nth-child(9) { left: 45%; top: 65%; }
+  .candle:nth-child(10) { left: 60%; top: 75%; }

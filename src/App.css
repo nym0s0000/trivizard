@@ -1,11 +1,7 @@
-body {
-  font-family: 'Harry Potter', sans-serif;
-  background: url('https://i.imgur.com/JdCLfJu.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
+/* Remove the body styles from here - they belong in index.css */
+.app {
   text-align: center;
-  margin: 0;
-  padding: 0;
+  padding: 20px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,6 +12,8 @@ body {
   background: rgba(0, 0, 0, 0.7);
   padding: 30px;
   border-radius: 10px;
+  border: 1px solid #ffc500;
+  box-shadow: 0 0 20px rgba(255, 197, 0, 0.3);
 }
 
 .game-screen {
@@ -24,6 +22,8 @@ body {
   border-radius: 10px;
   max-width: 500px;
   margin: 0 auto;
+  border: 1px solid #ffc500;
+  box-shadow: 0 0 20px rgba(255, 197, 0, 0.3);
 }
 
 .options button {
@@ -33,6 +33,15 @@ body {
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+  background: #372e29;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.options button:hover:not(:disabled) {
+  background: #5d4a42;
 }
 
 .progress-bar {
@@ -40,8 +49,17 @@ body {
   background: #333;
   border-radius: 10px;
   margin-top: 10px;
+  overflow: hidden;
 }
 
 .snitch {
   margin: 20px auto;
+}
+
+.game-over {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ffc500;
+  box-shadow: 0 0 20px rgba(255, 197, 0, 0.3);
 }
